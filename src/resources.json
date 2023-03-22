@@ -1,0 +1,58 @@
+{
+  "mathematics": {
+    "courses": [
+      {
+        "ma250": {
+          "code": "MA 250",
+          "title": "Applied Calculus",
+          "resources": [
+            {
+              "name": "name",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            },
+            {
+              "name": "name",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
+        "ma251": {
+          "code": "MA 251",
+          "title": "Differential",
+          "resources": [
+            {
+              "name": "name",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "computer-science": {
+    "courses": [
+      {
+        "cs120": {
+          "code": "CS 120",
+          "title": "Introduction to Computers and Programming",
+          "resources": [
+            {
+              "name": "W3Schools",
+              "description": "This is a website with helpful explanations and tutorials of Python programming concepts.",
+              "url": "https://www.w3schools.com",
+              "screenshot": ""
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
