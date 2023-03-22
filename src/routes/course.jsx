@@ -3,9 +3,14 @@ import resourcesJSON from "../resources.json";
 
 export default function Course() {
   const { subject, course } = useParams();
-  // console.log(course)
-  console.log(resourcesJSON[subject].courses[0][course].resources)
-  const resources = resourcesJSON[subject].courses[0][course].resources;
+  let courseIndex;
+  const courses = resourcesJSON[subject].courses;
+  for (let i = 0; i < courses.length; i++) {
+    if (Object.keys(courses[i])[0] === course) {
+      courseIndex = i;
+    }
+  }
+  const resources = resourcesJSON[subject].courses[courseIndex][course].resources;
 
   return (
     <div className="Course">
