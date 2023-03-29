@@ -7,7 +7,10 @@ export default function Subject() {
   const { subject } = useParams();  
   const navigate = useNavigate();
   const courses = resourcesJSON[subject].courses;
-  // console.log(courses)
+  console.log(courses)
+  // if (!courses) {
+  //   console.log("no courses!")
+  // }
 
   useEffect(() => {
     if (subject === "computer-science") {
@@ -20,18 +23,22 @@ export default function Subject() {
   return (
     <div className="Subject">
       <div className="back" onClick={() => navigate("/")}>
-        Back to subject selection
+        <span>Back to subject selection</span>
       </div>
       <h2>{title}</h2>
-      {courses.map((course, i) => (
-        <button
-          key={i}
-          onClick={() => navigate(`./${Object.keys(course)[0]}`)}
-        >
-          {`${course[Object.keys(course)[0]].code}:
-          ${course[Object.keys(course)[0]].title}`}
-        </button>
-      ))}
+      <div className="courses-container">
+        {courses.map((course, i) => (
+          // <div>
+            <button
+              key={i}
+              onClick={() => navigate(`./${Object.keys(course)[0]}`)}
+            >
+              {`${course[Object.keys(course)[0]].code}:
+              ${course[Object.keys(course)[0]].title}`}
+            </button>
+          // </div>
+        ))}
+      </div>
       <Outlet />
     </div>
   );

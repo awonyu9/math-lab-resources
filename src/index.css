@@ -13,10 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+
   /* mine: */
   font-size: 1.2em;
 
-  --ml-blue: rgb(81, 180, 226);
+  --ml-blue: rgb(6, 210, 210);
+  --ml-yellow: #eed40d;
+  --ml-orange: #fb9b01;
+  --ml-grey: #adacac;
+
+  padding: 0 20px;
   
 }
 
@@ -48,40 +57,129 @@
   background-color: orange;
   color: white;
 }
+*/
 
-.Root p {
-  
+.Root {
+  /* padding: 0 25px; */
 }
 
-.Root .subject-buttons {
+.Root .header {
+  background-color: var(--ml-orange);
+  color: white;
+  height: 120px;
+  max-height: fit-content;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.Root .header h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: auto auto;
+  cursor: pointer;
+}
+
+.Root .back {
+  color: var(--ml-grey);
+  text-align: left;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+
+.Root .back::before {
+  content: "\2190";
+  text-decoration: none;
+  /* width: 100%; */
+}
+
+.Root .back span {
+  text-decoration: underline;
+}
+
+.Index {
+  padding: 0 15px;
+}
+
+.Index p {
+  text-align: justify;
+}
+
+.Index .subject-buttons {
   display: flex;
   flex-direction: column;
-  align-items: center
-}
-
-.Root .subject-buttons button {
-  border: 1px solid blue;
-  border-radius: 5%;
+  row-gap: 25px;
   width: 75%;
-  height: 50px;
-  background-color: var(--ml-blue);
-  margin-bottom: 20px;
-  font-size: 1.2em;
+  margin: 0 auto;
 }
 
-.Root .subject-buttons a {
+.Index button {
+  background-color: var(--ml-blue);
+  font-weight: 600;
+  border-radius: 15px;
+  border-color: transparent;
+  padding: 10px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.Index button a {
   color: white;
   text-decoration: none;
 }
 
-.Subject .back {
-  margin-bottom: 20px;
-  text-decoration: underline;
-} */
+.Subject h2 {
+  font-size: 40px;
+  margin: 15px auto;
+}
+
+.Subject .courses-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 25px;
+}
+
+.Subject button {
+  height: 40px;
+  font-weight: 600;
+  background-color: var(--ml-yellow);
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.Subject button:active {
+  border: 2px solid #9b1111;
+}
 
 .Course {
-  position: static;
-  right: 10px;
-  top: 10px;
-  /* bottom: 10px; */
+  margin: 0 auto;
+  /* width: 75%; */
+}
+
+.Course .resource {
+  /* margin-top: 30px; */
+}
+
+.Course .resource h3 {
+  margin-bottom: 10px;
+}
+
+.Course .resource h3 a {
+  color: var(--ml-orange);
+  text-decoration: none;
+}
+
+.Course .resource img {
+  max-width: 100%;
+  border: 1px solid var(--ml-yellow);
+  /* height: auto; */
+}
+
+@media screen and (max-width: 600px) {
+  .Course .resource img:active {
+    transform: scale(115%);
+  }
+}
+
+.Course .resource p {
+  text-align: left;
 }

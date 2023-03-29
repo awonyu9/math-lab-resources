@@ -8,7 +8,7 @@ export default function Index() {
         here at Wartburg College, to help <i>you</i> help yourself in select
         mathematics and computer science courses!
       </p>
-      <p>Choose a subject below to get started!</p>
+      <h3>Choose a subject below to get started!</h3>
       <div className="subject-buttons">
         <button><Link to="/mathematics">Mathematics</Link></button>
         <button><Link to="/computer-science">Computer Science</Link></button>

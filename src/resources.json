@@ -2,18 +2,94 @@
   "mathematics": {
     "courses": [
       {
+        "ma106": {
+          "code": "MA 106",
+          "title": "Mathematics in Modern Society",
+          "resources": [
+            {
+              "name": "[name]",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
+        "ma107": {
+          "code": "MA 107",
+          "title": "Finite Mathematics",
+          "resources": [
+            {
+              "name": "[name]",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
+        "ma110-111": {
+          "code": "MA 110 & 111",
+          "title": "Structures of Mathematics I & II",
+          "resources": [
+            {
+              "name": "[name]",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
+        "ma190": {
+          "code": "MA 190",
+          "title": "Precalculus",
+          "resources": [
+            {
+              "name": "[name]",
+              "description": "This resource helps students understand the law of sin and cos by explaining how to do them and going through different examples.",
+              "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:solving-general-triangles/a/",
+              "screenshot": "../src/assets/wartburg_brand_guide/logocolor-1024x614.png"
+            },
+            {
+              "name": "[name]",
+              "description": "This resource describes how to graph log functions. It has interactive examples to help students understand each part of the function and how it translates onto the graph.",
+              "url": "https://www.varsitytutors.com/hotmath/hotmath_help/topics/graphing-logarithmic-functions",
+              "screenshot": "../src/assets/ma190-2.gif"
+            },
+            {
+              "name": "[name]",
+              "description": "This video goes through and explains all of the different types of transformations; shifting, stretching, and reflection. It is a shorter video and it does a really good job explaining each transformation.",
+              "url": "https://www.youtube.com/watch?v=LvByEdtMm3o&ab_channel=Mario%27sMathTutoring",
+              "screenshot": "../src/assets/wartburg_brand_guide/logocolor-1024x614.png"
+            }
+          ]
+        }
+      },
+      {
+        "ma214": {
+          "code": "MA 214",
+          "title": "Statistical Methods",
+          "resources": [
+            {
+              "name": "[name]",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
         "ma250": {
           "code": "MA 250",
           "title": "Applied Calculus",
           "resources": [
             {
-              "name": "name",
-              "description": "description",
-              "url": "url",
-              "screenshot": "href"
-            },
-            {
-              "name": "name",
+              "name": "[name]",
               "description": "description",
               "url": "url",
               "screenshot": "href"
@@ -24,10 +100,38 @@
       {
         "ma251": {
           "code": "MA 251",
-          "title": "Differential",
+          "title": "Foundational Differential Calculus",
           "resources": [
             {
-              "name": "name",
+              "name": "[name]",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
+        "ma252": {
+          "code": "MA 252",
+          "title": "Foundational Integral Calculus",
+          "resources": [
+            {
+              "name": "[name]",
+              "description": "description",
+              "url": "url",
+              "screenshot": "href"
+            }
+          ]
+        }
+      },
+      {
+        "ma255": {
+          "code": "MA 255",
+          "title": "Multivariable Calculus",
+          "resources": [
+            {
+              "name": "[name]",
               "description": "description",
               "url": "url",
               "screenshot": "href"
@@ -48,7 +152,7 @@
               "name": "W3Schools",
               "description": "This is a website with helpful explanations and tutorials of Python programming concepts.",
               "url": "https://www.w3schools.com",
-              "screenshot": ""
+              "screenshot": "../src/assets/cs120-1.png"
             }
           ]
         }
