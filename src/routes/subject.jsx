@@ -33,8 +33,9 @@ export default function Subject() {
               key={i}
               onClick={() => navigate(`./${Object.keys(course)[0]}`)}
             >
-              {`${course[Object.keys(course)[0]].code}:
-              ${course[Object.keys(course)[0]].title}`}
+              {course[Object.keys(course)[0]].code}
+              <br />
+              {course[Object.keys(course)[0]].title}
             </button>
           // </div>
         ))}

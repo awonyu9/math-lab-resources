@@ -26,7 +26,10 @@ export default function Course() {
       </div>
       }
 
-      <h2>{`${courseObj.code}: ${courseObj.title}`}</h2>
+      {/* <h2>{`${courseObj.code}: ${courseObj.title}`}</h2> */}
+      <h2>{courseObj.code}</h2>
+      <h2>{courseObj.title}</h2>
+
       {resources.map((res, i) => (
         <div key={i} className="resource">
           <h3><Link to={res.url} target="_blank">{res.name}</Link></h3>
