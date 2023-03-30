@@ -23,6 +23,7 @@
   --ml-blue: #00bcca;
   --ml-yellow: #ffcc33;
   --ml-orange: #f58025;
+  --ml-red: #9b1111;
   --ml-grey: #707070;
   --ml-light-grey: #adacac;
 
@@ -64,6 +65,8 @@
   padding: 0 25px;
 } */
 
+/* Root */
+
 .Root .header {
   background-color: var(--ml-orange);
   color: white;
@@ -97,6 +100,23 @@
   text-decoration: underline;
 }
 
+.Root .footer {
+  border-top: 1px solid var(--ml-orange);
+  color: var(--ml-red)
+}
+
+.Root .footer .wartburg-logo {
+  width: 200px;
+  height: 100px;
+  background-image: url(../src/assets/wartburg_brand_guide/logocolor-1024x614.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+/* Index */
+
 .Index {
   padding: 0 15px;
 }
@@ -129,6 +149,8 @@
   color: white;
   text-decoration: none;
 }
+
+/* Subject */
 
 .Subject h2 {
   font-size: 40px;
@@ -167,8 +189,10 @@
 }
 
 .Subject button:active {
-  border: 2px solid #9b1111;
+  border: 2px solid var(--ml-red);
 }
+
+/* Course */
 
 .Course {
   margin: 0 auto;
