@@ -29,6 +29,7 @@
 
   padding: 0 20px;
   
+  
 }
 
 /* body {
@@ -73,7 +74,8 @@
   height: 120px;
   max-height: fit-content;
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding: 0 10px;
 }
 
 .Root .header .wartburg-logo {
@@ -119,8 +121,23 @@
 }
 
 .Root .footer {
+  margin-top: 50px;
   border-top: 1px solid var(--ml-orange);
-  color: var(--ml-red)
+  padding-top: 30px;
+}
+
+.Root .footer .top {
+  padding: 10px 10px;
+  background-color: transparent;
+  color: var(--ml-red);
+  border: 2px solid black;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Root .footer .top:active {
+  background-color: var(--ml-light-grey);
 }
 
 .Root .footer .wartburg-logo {
@@ -133,6 +150,10 @@
   margin: 0 auto;
 }
 
+.Root .footer h4 {
+  color: var(--ml-red);
+}
+
 /* Index */
 
 .Index {
@@ -142,6 +163,15 @@
 .Index p {
   text-align: justify;
   font-weight: 200;
+  /* color: var(--ml-grey); */
+  width: 700px;
+  max-width: 100%;
+  /* margin: 20px auto; */
+  margin: 0 auto;
+}
+
+.Index h3 {
+  color: var(--ml-red);
 }
 
 .Index .subject-buttons {
@@ -161,11 +191,7 @@
   padding: 10px 10px;
   font-size: 18px;
   cursor: pointer;
-}
-
-.Index button a {
   color: white;
-  text-decoration: none;
 }
 
 /* Subject */
