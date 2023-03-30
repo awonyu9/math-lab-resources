@@ -5,6 +5,7 @@ export default function Root() {
   return (
     <div className="Root">
       <div className="header">
+        <div className="wartburg-logo"></div>
         <h1 onClick={() => navigate("/")}>Math Lab Resources</h1>
       </div>
       <Outlet />
