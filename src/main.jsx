@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { HashRouter as RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Root from './routes/root';
 import Subject from './routes/subject';
 import Course from './routes/course';
