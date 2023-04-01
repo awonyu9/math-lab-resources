@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 // import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { RouterProvider, createHashRouter } from 'react-router-dom';
-import Root from './routes/root';
-import Subject from './routes/subject';
-import Course from './routes/course';
-import Index from './routes';
+import Root from './routes/Root';
+import Subject from './routes/Subject';
+import Course from './routes/Course';
+import Index from './routes/Index';
+import NotFound from './routes/NotFound';
 
 const router = createHashRouter([
   {
@@ -14,7 +15,7 @@ const router = createHashRouter([
     element: <Root />,
     children: [
       {
-        // errorElement: ,
+        errorElement: <NotFound />,
         children: [
           {
             index: true,
@@ -28,6 +29,10 @@ const router = createHashRouter([
             path: "/:subject/:course",
             element: <Course />,
           },
+          // {
+          //   path: "*",
+          //   element: <NotFound />,
+          // },
         ],
       },
     ],

@@ -84,7 +84,7 @@
   height: 100px;
   position: absolute;
   top: 15px;
-  background-image: url(../src/assets/wartburg_brand_guide/logowhite-1024x614.png);
+  background-image: url(../src/assets/logos/logowhite-1024x614.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@
 .Root .footer .wartburg-logo {
   width: 200px;
   height: 100px;
-  background-image: url(../src/assets/wartburg_brand_guide/logocolor-1024x614.png);
+  background-image: url(../src/assets/logos/logocolor-1024x614.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -151,6 +151,13 @@
 }
 
 .Root .footer h4 {
+  color: var(--ml-red);
+}
+
+/* NotFound */
+
+.NotFound a {
+  text-decoration: none;
   color: var(--ml-red);
 }
 
