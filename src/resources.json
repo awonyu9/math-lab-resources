@@ -23,12 +23,14 @@
           "resources": [
             {
               "name": "Tricks on Simple Interest - BYJU'S Exam Prep",
+              "author": "",
               "description": "This resource discusses the basic questions that are usually asked about Simple Interest and how you can solve them using the normal as well as Shortcut approach.",
               "url": "https://byjusexamprep.com/liveData/f/2019/4/Simple%20Interest%20(E).pdf-41.pdf",
               "screenshot": "href"
             },
             {
               "name": "Simple Interest Formula - The Organic Chemistry Tutor",
+              "author": "",
               "description": "This resource is a video that walks you through some example problems using the Simple Interest formula. He talks about the thought process while solving these questions.",
               "url": "https://www.youtube.com/watch?v=NCYNXkbTTUo",
               "screenshot": "NCYNXkbTTUo"
@@ -107,18 +109,21 @@
           "resources": [
             {
               "name": "Laws of sines and cosines - Khan Academy",
+              "author": "",
               "description": "This resource helps students understand the law of sin and cos by explaining how to do them and going through different examples.",
               "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:solving-general-triangles/a/",
               "screenshot": "../src/assets/wartburg_brand_guide/logocolor-1024x614.png"
             },
             {
               "name": "Graphing Logarithmic Functions - Varsity Tutors",
+              "author": "",
               "description": "This resource describes how to graph log functions. It has interactive examples to help students understand each part of the function and how it translates onto the graph.",
               "url": "https://www.varsitytutors.com/hotmath/hotmath_help/topics/graphing-logarithmic-functions",
               "screenshot": "./screenshots/ma190-2.gif"
             },
             {
               "name": "Shifting, Stretching and Reflecting Parent Function Graphs",
+              "author": "",
               "description": "This video goes through and explains all of the different types of transformations; shifting, stretching, and reflection. It is a shorter video and it does a really good job explaining each transformation.",
               "url": "https://www.youtube.com/watch?v=LvByEdtMm3o&ab_channel=Mario%27sMathTutoring",
               "screenshot": "LvByEdtMm3o"
@@ -162,6 +167,7 @@
           "resources": [
             {
               "name": "[name]",
+              "author": "",
               "description": "description",
               "url": "url",
               "screenshot": "href"
@@ -205,24 +211,28 @@
           "resources": [
             {
               "name": "Calculus Video Playlist - The Organic Chemistry Tutor",
+              "author": "",
               "description": "This resource has many trusted videos that go through explanations and example problems for many integral things as well as taylor series! Videos 127-256 are most relevant to MA 252.",
               "url": "https://youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv",
               "screenshot": ""
             },
             {
               "name": "Integral Calculus - Khan Academy",
+              "author": "",
               "description": "Khan Academy has 5 units on integral calculus with videos and practice problems for each section covered within MA 252",
               "url": "https://www.khanacademy.org/math/integral-calculus",
               "screenshot": ""
             },
             {
               "name": "Integral Calculator - Wolfram|Alpha",
+              "author": "",
               "description": "This source can be used to check your answers for integrations, as well as showing a graph of the integral.  ",
               "url": "https://www.wolframalpha.com/calculators/integral-calculator/",
               "screenshot": ""
             },
             {
               "name": "Desmos Graphing Calculator",
+              "author": "",
               "description": "If you go to the graphing calculator and click the three lines in the upper left corner of the page, you can pull up example graphs that have polar coordinates, integrals, and taylor series. This can be a great resource to help someone see these concepts on a graph and you can interact with the settings of them to see how they change as you manipulate them.",
               "url": "https://www.desmos.com/calculator",
               "screenshot": ""
@@ -277,6 +287,7 @@
           "resources": [
             {
               "name": "W3Schools (no)",
+              "author": "",
               "description": "This is a website with helpful explanations and tutorials of Python programming concepts.",
               "url": "https://www.w3schools.com",
               "screenshot": "./screenshots/cs120-1.png"
