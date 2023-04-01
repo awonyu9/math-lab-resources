@@ -24,6 +24,7 @@
   --ml-yellow: #ffcc33;
   --ml-orange: #f58025;
   --ml-red: #9b1111;
+  --ml-pink: #da4d65;
   --ml-grey: #707070;
   --ml-light-grey: #adacac;
 
@@ -40,7 +41,7 @@
   min-height: 100vh;
 } */
 
-/* @media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -52,19 +53,6 @@
     background-color: #f9f9f9;
   }
 }  */
-
-/* .Root .header {
-  width: 100%;
-  height: 100px;
-  padding: 10px 10px;
-  background-color: orange;
-  color: white;
-}
-*/
-
-/* .Root {
-  padding: 0 25px;
-} */
 
 /* Root */
 
@@ -110,6 +98,12 @@
   /* text-decoration: underline; */
 }
 
+@media (prefers-color-scheme: dark) {
+  .Root .back {
+    color: white;
+  }
+}
+
 .Root .back::before {
   content: "\2190";
   text-decoration: none;
@@ -118,6 +112,7 @@
 
 .Root .back span {
   text-decoration: underline;
+  margin-left: 5px;
 }
 
 .Root .footer {
@@ -136,6 +131,12 @@
   cursor: pointer;
 }
 
+@media (prefers-color-scheme: dark) {
+  .Root .footer .top {
+    background-color: white;
+  }
+}
+
 .Root .footer .top:active {
   background-color: var(--ml-light-grey);
 }
@@ -147,11 +148,24 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  /* background-color: white; */
+  margin: 5px auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Root .footer .wartburg-logo {
+    background-image: url(../src/assets/logos/logowhite-1024x614.png)
+  }
 }
 
 .Root .footer h4 {
   color: var(--ml-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Root .footer h4 {
+    color: var(--ml-orange);
+  }
 }
 
 /* NotFound */
@@ -159,6 +173,12 @@
 .NotFound a {
   text-decoration: none;
   color: var(--ml-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  .NotFound a {
+    color: var(--ml-yellow);
+  }
 }
 
 /* Index */
@@ -169,7 +189,7 @@
 
 .Index p {
   text-align: justify;
-  font-weight: 200;
+  font-weight: 400;
   /* color: var(--ml-grey); */
   width: 700px;
   max-width: 100%;
@@ -179,6 +199,12 @@
 
 .Index h3 {
   color: var(--ml-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Index h3 {
+    color: var(--ml-yellow);
+  }
 }
 
 .Index .subject-buttons {
@@ -243,6 +269,12 @@
   border: 2px solid var(--ml-red);
 }
 
+@media (prefers-color-scheme: dark) {
+  .Subject button {
+    background-color: var(--ml-pink);
+  }
+}
+
 /* Course */
 
 .Course {
@@ -264,6 +296,12 @@
   color: var(--ml-grey);
 }
 
+@media (prefers-color-scheme: dark) {
+  .Course h2:nth-of-type(2) {
+    color: var(--ml-light-grey);
+  }
+}
+
 /* .Course .resource {
   margin-top: 30px;
 } */
@@ -274,6 +312,12 @@
 
 .Course .resource .author {
   color: var(--ml-grey);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Course .resource .author {
+    color: var(--ml-light-grey);
+  }
 }
 
 .Course .resource h3 a {
@@ -322,6 +366,12 @@
   color: var(--ml-red);
   font-weight: bold;
   text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Course .resource p a {
+    color: var(--ml-yellow);
+  }
 }
 
 .Course .resource hr {
