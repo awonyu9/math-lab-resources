@@ -115,7 +115,7 @@
               "name": "Graphing Logarithmic Functions - Varsity Tutors",
               "description": "This resource describes how to graph log functions. It has interactive examples to help students understand each part of the function and how it translates onto the graph.",
               "url": "https://www.varsitytutors.com/hotmath/hotmath_help/topics/graphing-logarithmic-functions",
-              "screenshot": "../src/assets/screenshots/ma190-2.gif"
+              "screenshot": "./screenshots/ma190-2.gif"
             },
             {
               "name": "Shifting, Stretching and Reflecting Parent Function Graphs",
@@ -279,7 +279,7 @@
               "name": "W3Schools (no)",
               "description": "This is a website with helpful explanations and tutorials of Python programming concepts.",
               "url": "https://www.w3schools.com",
-              "screenshot": "../src/assets/screenshots/cs120-1.png"
+              "screenshot": "./screenshots/cs120-1.png"
             }
           ]
         }
