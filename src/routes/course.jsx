@@ -33,12 +33,24 @@ export default function Course() {
       {resources.map((res, i) => (
         <div key={i} className="resource">
           <h3>
-            <Link to={res.url} target="_blank">
+            <Link to={res.url} alt="Link to resource" target="_blank">
               {res.name}
             </Link>
+            <div className="author">{res.author}</div>
           </h3>
-          <img src={res.screenshot} alt="resource screenshot" />
-          <p>{res.description}</p>
+          {res.url.includes("watch") ? (
+            <iframe
+              src={`https://youtube.com/embed/${res.screenshot}`}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            // add logic for playlist as well, or just change the conditional so that it's strictly for videos
+          ) : (
+            <img src={res.screenshot} alt="resource screenshot" />
+          )}
+          <p>{res.description} <Link to={res.url} alt="Link to resource" target="_blank">Link</Link></p>
           {i < resources.length - 1 && <hr />}
         </div>
       ))}

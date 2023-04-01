@@ -10,6 +10,9 @@ export default function Index() {
         here at Wartburg College, to help <i>you</i> help yourself in select
         mathematics and computer science courses!
       </p>
+
+      {/* Talk about how they could also feel free to check the websites and YouTube channels linked in their entirety for even more resources */}
+      {/* Maybe can also drop a link to the booking website explicitly here */}
       
       <h3>Choose a subject below to get started!</h3>
 
