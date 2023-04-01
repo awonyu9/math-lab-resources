@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { HashRouter as RouterProvider, createBrowserRouter } from 'react-router-dom';
+// import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Root from './routes/root';
 import Subject from './routes/subject';
 import Course from './routes/course';
 import Index from './routes';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
