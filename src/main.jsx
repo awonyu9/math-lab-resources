@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 // import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { RouterProvider, createHashRouter } from 'react-router-dom';
-import Root from './routes/Root';
-import Subject from './routes/Subject';
-import Course from './routes/Course';
-import Index from './routes/Index';
-import NotFound from './routes/NotFound';
-import About from './routes/About';
+import Root from './routes/root';
+import Subject from './routes/subject';
+import Course from './routes/course';
+import Index from './routes/index';
+import NotFound from './routes/notFound';
+import About from './routes/about';
 
 const router = createHashRouter([
   {

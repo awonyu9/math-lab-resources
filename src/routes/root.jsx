@@ -1,5 +1,5 @@
-import { Link, Outlet, useNavigate } from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
+import { Outlet, useNavigate } from "react-router-dom";
+import ScrollToTop from "./scrollToTop";
 
 export default function Root() {
   const navigate = useNavigate();
