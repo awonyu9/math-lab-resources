@@ -6,9 +6,10 @@ import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Root from './routes/root';
 import Subject from './routes/subject';
 import Course from './routes/course';
-import Index from './routes/index';
 import NotFound from './routes/notFound';
 import About from './routes/about';
+import Index from './routes/index';
+
 
 const router = createHashRouter([
   {
