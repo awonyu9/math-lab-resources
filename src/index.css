@@ -408,11 +408,11 @@
   height: auto;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .Course .resource img:active {
     transform: scale(115%);
   }
-}
+} */
 
 .Course .resource iframe {
   width: 560px;
