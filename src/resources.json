@@ -112,7 +112,7 @@
               "author": "",
               "description": "This resource helps students understand the law of sin and cos by explaining how to do them and going through different examples.",
               "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:solving-general-triangles/a/",
-              "screenshot": "../src/assets/wartburg_brand_guide/logocolor-1024x614.png"
+              "screenshot": "../src/assets/logos/logocolor-1024x614.png"
             },
             {
               "name": "Graphing Logarithmic Functions - Varsity Tutors",
@@ -296,5 +296,20 @@
         }
       }
     ]
-  }
+  },
+  "credits": [
+    "Nifemi Abikoye",
+    "Tonia Alderbashi",
+    "Addy Carlson",
+    "Srujana Dandem",
+    "Eric Dowe",
+    "Sydney Fellows",
+    "Gavin Foust-Wollenberg",
+    "Michael Goodenbour",
+    "David Guetzlaff",
+    "Patrick Mulholland",
+    "Isaac Nguyen",
+    "Andrew Poock",
+    "Alexandra Wonyu"
+  ]
 }

@@ -29,6 +29,7 @@ export default function Course() {
 
       <h2>{courseObj.code}</h2>
       <h2>{courseObj.title}</h2>
+      <hr />
 
       {resources.map((res, i) => (
         <div key={i} className="resource">
@@ -42,9 +43,9 @@ export default function Course() {
             <iframe
               src={`https://youtube.com/embed/${res.screenshot}`}
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
             // add logic for playlist as well, or just change the conditional so that it's strictly for videos
           ) : (

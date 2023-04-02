@@ -8,6 +8,7 @@ import Subject from './routes/Subject';
 import Course from './routes/Course';
 import Index from './routes/Index';
 import NotFound from './routes/NotFound';
+import About from './routes/About';
 
 const router = createHashRouter([
   {
@@ -29,10 +30,10 @@ const router = createHashRouter([
             path: "/:subject/:course",
             element: <Course />,
           },
-          // {
-          //   path: "*",
-          //   element: <NotFound />,
-          // },
+          {
+            path: "/about",
+            element: <About />,
+          },
         ],
       },
     ],
