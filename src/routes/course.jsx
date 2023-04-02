@@ -43,15 +43,26 @@ export default function Course() {
             <iframe
               src={`https://youtube.com/embed/${res.screenshot}`}
               title="YouTube video player"
-              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-            // add logic for playlist as well, or just change the conditional so that it's strictly for videos
+          ) : // add logic for playlist as well, or just change the conditional so that it's strictly for videos
+          res.url.includes("playlist") ? (
+            <iframe
+              src={`https://www.youtube.com/embed/videoseries?list=${res.screenshot}`}
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
           ) : (
             <img src={res.screenshot} alt="resource screenshot" />
           )}
-          <p>{res.description} <Link to={res.url} alt="Link to resource" target="_blank">Link</Link></p>
+          <p>
+            {res.description}{" "}
+            <Link to={res.url} alt="Link to resource" target="_blank">
+              Link
+            </Link>
+          </p>
           {i < resources.length - 1 && <hr />}
         </div>
       ))}

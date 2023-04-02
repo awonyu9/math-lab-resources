@@ -21,10 +21,11 @@
   font-size: 1.2em;
 
   --ml-blue: #00bcca;
+  --ml-dark-blue: #0e3d7f;
   --ml-yellow: #ffcc33;
   --ml-orange: #f58025;
   --ml-red: #9b1111;
-  --ml-pink: #da4d65;
+  --ml-brown: #794501;
   --ml-grey: #707070;
   --ml-light-grey: #adacac;
 
@@ -232,8 +233,20 @@
   background-color: var(--ml-blue);
 }
 
+@media (prefers-color-scheme: dark) {
+  .About button {
+    background-color: var(--ml-dark-blue);
+  }
+}
+
 .About button a {
   color: white;
+}
+
+/* NotFound */
+
+.NotFound a {
+  font-weight: 600;
 }
 
 /* Index */
@@ -281,6 +294,12 @@
   color: white;
 }
 
+@media (prefers-color-scheme: dark) {
+  .Index button {
+    background-color: var(--ml-dark-blue);
+  }
+}
+
 /* Subject */
 
 .Subject h2 {
@@ -324,7 +343,7 @@
 
 @media (prefers-color-scheme: dark) {
   .Subject button {
-    background-color: var(--ml-pink);
+    background-color: var(--ml-brown);
   }
 }
 
