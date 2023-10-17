@@ -35,7 +35,7 @@ export default function Course() {
       {resources.map((res, i) => (
         <div key={i} className="resource">
           <h3>
-            <Link to={res.url} alt="Link to resource" target="_blank">
+            <Link to={res.url} alt={`Link to "${res.name}" resource`} target="_blank">
               {res.name}
             </Link>
             <div className="author">{res.author}</div>
@@ -60,7 +60,7 @@ export default function Course() {
           )}
           <p>
             {res.description}{" "}
-            <Link to={res.url} alt="Link to resource" target="_blank">
+            <Link to={res.url} alt={`Link to "${res.name}" resource`} target="_blank">
               Link
             </Link>
           </p>

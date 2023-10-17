@@ -5,10 +5,8 @@
 .Index p {
   text-align: justify;
   font-weight: 400;
-  /* color: var(--ml-grey); */
   width: 700px;
   max-width: 100%;
-  /* margin: 20px auto; */
   margin: 0 auto;
 }
 

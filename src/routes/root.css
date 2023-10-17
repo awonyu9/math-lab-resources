@@ -27,7 +27,6 @@
 }
 
 .Root .header h1 {
-  /* font-size: 30px; */
   font-size: 1.8em;
   font-weight: 800;
   margin: auto auto;
@@ -49,10 +48,6 @@
   font-weight: bold;
 }
 
-.Root .footer .top:active {
-  background-color: var(--ml-light-grey);
-}
-
 .Root .footer .wartburg-logo {
   width: 200px;
   height: 100px;
@@ -60,7 +55,6 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-color: white; */
   margin: 5px auto;
 }
 
@@ -73,13 +67,6 @@
 .Root .footer h4 {
   color: var(--ml-red);
 }
-
-.Root .footer h4 span {
-  text-decoration: underline;
-  text-underline-offset: 5px;
-  cursor: pointer;
-}
-
 
 @media (prefers-color-scheme: dark) {
   .Root .footer h4 {

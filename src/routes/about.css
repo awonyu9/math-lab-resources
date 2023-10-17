@@ -35,6 +35,10 @@
   background-color: var(--ml-blue);
 }
 
+.About button:hover {
+  text-decoration: none;
+}
+
 @media (prefers-color-scheme: dark) {
   .About button {
     background-color: var(--ml-dark-blue);

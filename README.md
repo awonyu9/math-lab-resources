@@ -11,16 +11,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/awonyu9/math-lab-resources">
+  <a href="https://github.com/awonyu9/math-lab-resources" alt="Link to Math Lab Resources website" target="_blank">
     <img src="./src/assets/icons/book.png" alt="Logo" width="80" height="80">
   </a>
 
 <h1 align="center">Wartburg College Math Lab Resources</h1>
 
   <p align="center">
-    This is part of Wartburg College's Math Lab's 2022-23 service project. Our team of 13 students decided that we wanted to serve our community by compiling useful resources on each of the course we tutor our fellow students in. At first, we were just going to gather it all in a Google Doc, but I volunteered to build a website instead, hoping that students would find a website with a nicer user interface easier to use than a plain Google Doc. So, I taught myself React Router to build it, and here we are!
+    This is part of Wartburg College's Math Lab's 2022-23 service project. Our team of 13 students decided that we wanted to serve our community by compiling useful resources on each of the course we tutor our fellow students in. At first, we were just going to gather it all in a Google Doc, but I volunteered to build a website instead, hoping that students would find a website with a nice user interface easier to use than a plain Google Doc. So, I taught myself React Router to build it, and here we are!
     <br />
-    <a href="https://awonyu9.github.io/math-lab-resources"><strong>Check out the website »</strong></a>
+    <a href="https://awonyu9.github.io/math-lab-resources" alt="Link to Math Lab Resources website" target="_blank"><strong>Check out the website »</strong></a>
     <br />
     <br />
     <a href="https://github.com/awonyu9/math-lab-resources/issues">Report Bug</a>
@@ -46,6 +46,7 @@ I've also designed the website so that it can be comfortably rendered with a dar
 
 * React
 * React Router
+* \+ Adobe XD for initial UI prototyping
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,6 +60,23 @@ And here is a demo of the website on a mobile device with a dark theme.
 <img src="./readme-assets/walkthrough-mobile-dark.gif" alt="Walkthrough video" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+1. Clone this repository
+```sh
+git clone https://github.com/awonyu9/math-lab-resources.git
+```
+2. Install npm packages
+```sh
+npm install
+```
+3. Run app in dev mode
+```sh
+npm run dev
+```
+4. Visit webpage in your browser at: <a href="http://127.0.0.1:5173/math-lab-resources/" alt="Link to locally running app" target="_blank">http://127.0.0.1:5173/math-lab-resources/</a>
 
 <!-- CONTACT -->
 ## Contact

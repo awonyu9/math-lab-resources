@@ -15,7 +15,6 @@
   margin: 0 auto;
   text-align: center;
 
-  /* mine: */
   font-size: 1.2em;
 
   --ml-blue: #00bcca;
@@ -27,9 +26,7 @@
   --ml-grey: #707070;
   --ml-light-grey: #adacac;
 
-  padding: 0 20px;
-  
-  
+  padding: 0 20px;  
 }
 
 /* Global styles */
@@ -42,7 +39,6 @@
   color: var(--ml-light-grey);
   text-align: left;
   cursor: pointer;
-  /* text-decoration: underline; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,14 +53,17 @@
 }
 
 .Root .back span {
-  text-decoration: underline;
-  text-underline-offset: 5px;
   margin-left: 5px;
+  text-underline-offset: 5px;
 }
 
 .Root a {
   text-decoration: none;
   color: var(--ml-red);
+}
+
+.Root a:hover, .Root button:hover, .Root .back span:hover {
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './main.css'
 // import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { RouterProvider, createHashRouter } from 'react-router-dom';
 import { Root, Subject, Course, NotFound, About, Index } from "./routes";
