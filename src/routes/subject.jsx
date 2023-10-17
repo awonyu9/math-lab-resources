@@ -1,3 +1,4 @@
+import "./subject.css";
 import { useEffect } from "react";
 import { useNavigate, useParams, Outlet } from "react-router-dom";
 import resourcesJSON from "../resources.json";

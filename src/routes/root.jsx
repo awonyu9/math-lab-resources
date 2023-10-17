@@ -1,3 +1,4 @@
+import "./root.css";
 import { Outlet, useNavigate } from "react-router-dom";
 import ScrollToTop from "./scrollToTop";
 

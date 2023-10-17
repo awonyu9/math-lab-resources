@@ -1,3 +1,4 @@
+import "./course.css";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import resourcesJSON from "../resources.json";
 

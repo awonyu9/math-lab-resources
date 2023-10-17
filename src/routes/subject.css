@@ -1,0 +1,44 @@
+.Subject h2 {
+  font-size: 2.1em;
+  margin: 15px auto;
+}
+
+.Subject .courses-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 25px;
+}
+
+@media screen and (min-width: 600px) {
+  .Subject .courses-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Subject .courses-container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;;
+  }
+}
+
+.Subject button {
+  min-height: 40px;
+  font-weight: 600;
+  background-color: var(--ml-yellow);
+  border-color: transparent;
+  text-align: left;
+  line-height: 20px;
+  padding: 3px 10px;
+}
+
+.Subject button:active {
+  border: 2px solid var(--ml-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Subject button {
+    background-color: var(--ml-brown);
+  }
+}

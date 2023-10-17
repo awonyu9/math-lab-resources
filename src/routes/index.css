@@ -1,0 +1,52 @@
+.Index {
+  padding: 0 15px;
+}
+
+.Index p {
+  text-align: justify;
+  font-weight: 400;
+  /* color: var(--ml-grey); */
+  width: 700px;
+  max-width: 100%;
+  /* margin: 20px auto; */
+  margin: 0 auto;
+}
+
+.Index h3 {
+  color: var(--ml-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  .Index h3 {
+    color: var(--ml-yellow);
+  }
+}
+
+.Index .subject-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  width: 300px;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.Index button {
+  background-color: var(--ml-blue);
+  font-weight: 600;
+  border-radius: 15px;
+  border-color: transparent;
+  padding: 10px 10px;
+  font-size: 0.94em;
+  color: white;
+}
+
+.Index button a {
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Index button {
+    background-color: var(--ml-dark-blue);
+  }
+}

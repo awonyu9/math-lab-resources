@@ -1,0 +1,46 @@
+.About p {
+  margin: 0 auto;
+  width: 700px;
+  max-width: 90%;
+}
+
+.About .names {
+  margin: 15px auto;
+}
+
+.About .names p {
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--ml-red)
+}
+
+@media (prefers-color-scheme: dark) {
+  .About .names p {
+    color: var(--ml-yellow);
+  }
+}
+
+.About ul li {
+  list-style-type: none;
+}
+
+.About button {
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: var(--ml-blue);
+}
+
+@media (prefers-color-scheme: dark) {
+  .About button {
+    background-color: var(--ml-dark-blue);
+  }
+}
+
+.About button a {
+  color: white;
+}
