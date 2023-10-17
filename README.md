@@ -11,9 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/awonyu9/math-lab-resources" alt="Link to Math Lab Resources website" target="_blank">
-    <img src="./src/assets/icons/book.png" alt="Logo" width="80" height="80">
-  </a>
+  <img src="./src/assets/icons/book.png" alt="Logo" width="80" height="80">
 
 <h1 align="center">Wartburg College Math Lab Resources</h1>
 
