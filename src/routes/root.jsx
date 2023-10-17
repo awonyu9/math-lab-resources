@@ -17,7 +17,7 @@ export default function Root() {
       <div className="footer">
         <button className="top" onClick={() => window.scrollTo(0, 0)}>Back to top</button>
         <div className="wartburg-logo"></div>
-        <h4>Peer Learning Lab 2022-23 ・ <span onClick={() => navigate("about")}>Math Lab</span></h4>
+        <h4>Peer Learning Lab 2022-23 ・ Math Lab ・ About us</h4>
       </div>
     </div>
   );

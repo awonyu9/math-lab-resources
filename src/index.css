@@ -294,6 +294,10 @@
   color: white;
 }
 
+.Index button a {
+  color: white;
+}
+
 @media (prefers-color-scheme: dark) {
   .Index button {
     background-color: var(--ml-dark-blue);

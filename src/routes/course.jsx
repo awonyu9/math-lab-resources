@@ -46,7 +46,7 @@ export default function Course() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-          ) : // add logic for playlist as well, or just change the conditional so that it's strictly for videos
+          ) :
           res.url.includes("playlist") ? (
             <iframe
               src={`https://www.youtube.com/embed/videoseries?list=${res.screenshot}`}

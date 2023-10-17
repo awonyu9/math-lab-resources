@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Index() {
   const navigate = useNavigate();
@@ -19,13 +19,24 @@ export default function Index() {
       <h3>Choose a subject below to get started!</h3>
 
       <div className="subject-buttons">
-        {/* <button><Link to="/mathematics">Mathematics</Link></button>
-        <button><Link to="/computer-science">Computer Science</Link></button> */}
         <button onClick={() => navigate("/mathematics")}>Mathematics</button>
         <button onClick={() => navigate("/computer-science")}>
           Computer Science
         </button>
       </div>
+
+      <h3>Or book one of us at the Lab:</h3>
+      
+      <button>
+        <Link
+          to="https://outlook.office365.com/owa/calendar/PeerLabBookings@wartburgedu.onmicrosoft.com/bookings/"
+          alt="Link to Math Lab booking website"
+          target="_blank"
+        >
+          Click here!
+        </Link>
+      </button>
+      
     </div>
   );
 }
