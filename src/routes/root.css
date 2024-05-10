@@ -14,7 +14,7 @@
   height: 100px;
   position: absolute;
   top: 15px;
-  background-image: url(../src/assets/logos/logowhite-1024x614.png);
+  background-image: url(../assets/logos/logowhite-1024x614.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 .Root .footer .wartburg-logo {
   width: 200px;
   height: 100px;
-  background-image: url(../src/assets/logos/logocolor-1024x614.png);
+  background-image: url(../assets/logos/logocolor-1024x614.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 
 @media (prefers-color-scheme: dark) {
   .Root .footer .wartburg-logo {
-    background-image: url(../src/assets/logos/logowhite-1024x614.png)
+    background-image: url(../assets/logos/logowhite-1024x614.png);
   }
 }
 
